@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App .App-header .App-nav {
+  background: #000;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  padding: 20px 140px;
+}
+.App .App-header .App-nav .div-wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+.App .App-header .App-nav .div-wrapper img {
+  height: 100px;
+  width: 100px;
+  padding-bottom: 20px;
+}
+.App .App-header .App-nav .div-wrapper .div-link {
+  margin-right: 20px;
+  margin-left: 100px;
+}
+.App .App-header .App-nav .div-wrapper .div-link .nav--link li {
+  display: inline-block;
+  padding: 30px;
+}
+.App .App-header .App-nav .div-wrapper .div-link .nav--link li a {
+  text-decoration: none;
+  color: #d27701;
+}
+.App .App-header .App-nav .div-wrapper .div-link .nav--link li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+.App .App-header .App-nav .div-primary {
+  display: flex;
+  flex-direction: row;
+}
+.App .App-header .App-nav .div-primary .nav--link {
+  margin-left: 40px;
+}
+.App .App-header .App-nav .div-primary .nav--link li {
+  display: inline-block;
+  padding-top: 30px;
+}
+.App .App-header .App-nav .div-primary .nav--link li a {
+  text-decoration: none;
+  color: #d27701;
+}
+.App .App-header .App-nav .div-primary .nav--link li a:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.Main {
+  margin: 0 200px;
+}
+.Main .Section-inner-content {
+  height: 400px;
+  background-image: url(./images/bgfont.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.Main .Section-inner-content .Text-container {
+  position: relative;
+  padding-top: 120px;
+}
+.Main .Section-inner-content .Text-container h1,
+.Main .Section-inner-content .Text-container h2 {
+  position: relative;
+  z-index: 1;
+  margin-left: 60px;
+  color: white;
+  font-weight: 700;
+}
+.Main .Section-inner-content .Text-container h1 {
+  font-size: 42px;
+}
+.Main .Section-inner-content .Text-container h2 {
+  color: #d27701;
+  font-size: 32px;
+}
+.Main .Section-inner-content .Text-container .btns {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+.Main .Section-inner-content .Text-container .btns .search {
+  width: 1200px;
+  height: 50px;
+  border-radius: 30px;
+  border: 1px solid white;
+  padding-left: 15px;
+  color: #757575;
+  font-size: 18px;
+}
+.Main .Section-inner-content .Text-container .btns .btn {
+  width: 100px;
+  border-radius: 30px;
+  color: white;
+  font-size: 600;
+  border: 1px solid white;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 42%, rgb(189, 101, 19) 72%);
+}
+.Main .Section-trding-content {
+  height: 400px;
+  margin-top: 30px;
+}
+.Main .Section-trding-content .Div-column {
+  margin-top: 20px;
+}
+.Main .Section-trding-content .Div-column .Div-column-header {
+  margin: 10px 60px;
+  display: flex;
+}
+.Main .Section-trding-content .Div-column .Div-column-header .Trending {
+  margin-right: 40px;
+}
+.Main .Section-trding-content .Div-column .Div-column-header .Div-selector {
+  display: flex;
+  margin-left: 40px;
+  padding: 5px 20px;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+.Main .Section-trding-content .Div-column .Div-column-header .Div-selector .Today {
+  padding-right: 40px;
+}
+.Main .Section-trding-content .Div-column .Div-trending-scroller {
+  padding: 30px 0;
+}
+.Main .Section-trding-content .Div-column .Div-trending-scroller .Div-column-content {
+  display: flex;
+  margin: 0 60px;
+  margin-right: 0;
+}
+.Main .Section-trding-content .Div-column .Div-trending-scroller .Div-column-content .Div-card {
+  width: 150px;
+  margin-right: 20px;
+}
+.Main .Section-trding-content .Div-column .Div-trending-scroller .Div-column-content .Div-card .options .gliphicons {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+.Main .Section-trding-content .Div-column .Div-trending-scroller .Div-column-content .Div-card .options .gliphicons:hover {
+  background: #d27701;
+}
+.Main .Section-trding-content .Div-column .Div-trending-scroller .Div-column-content .Div-card .Div-image .Card-img {
+  width: 150px;
+  border: 2px solid rgb(3, 3, 3);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=App.css.map */
